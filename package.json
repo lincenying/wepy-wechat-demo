@@ -1,0 +1,32 @@
+{
+  "name": "wepy-wechat-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production wepy build --no-cache",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "wepy": "^1.5.6",
+    "wepy-async-function": "^1.4.4",
+    "wepy-com-toast": "^1.0.1",
+    "wepy-web": "0.0.11"
+  },
+  "devDependencies": {
+    "babel-plugin-syntax-export-extensions": "^6.13.0",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-1": "^6.22.0",
+    "cross-env": "^3.2.4",
+    "eslint-config-lcy-vue": "^2.0.2",
+    "wepy-compiler-babel": "^1.5.1",
+    "wepy-compiler-less": "^1.3.10",
+    "wepy-compiler-sass": "0.0.3",
+    "wepy-eslint": "^1.5.2",
+    "wepy-plugin-imagemin": "^1.5.2",
+    "wepy-plugin-uglifyjs": "^1.3.6"
+  }
+}
